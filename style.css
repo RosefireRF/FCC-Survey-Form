@@ -2,13 +2,14 @@
     margin: 0%;
     padding: 0%;
     border: 1px;
+
 }
 
 body{
     background-color: #092327;
 }
 #top{
-    color: #F2C14E;
+    color: #ffd47f;
     text-align: center;
 }
 p{
@@ -24,51 +25,17 @@ p{
 }
 form{
     width: 50%;
-    background-color: #ff947f;
+    background-color: #ffd47f;
+    color: #aa7fff;
     margin: auto;
 }
 #formHolder{
-    background-color: aquamarine;
+    background-color: #aa7fff;
     width: 70vw;
     height: auto;
     margin: auto;
 }
-#radiohead{
-    background-color: #ff947f;
-    color: white;
-}
-#dropdownDiv{
-    background-color: #ff947f;
-    color: white;
-}
-#dropdownDiv{
-    background-color: #ff947f;
-    color: white;
-}
-#ageDiv{
-    background-color: #ff947f;
-    color:white;
-}
-#ageDiv input{
-    background-color: #ff947f;
-    color:white;
-}
-#emailDiv{
-    background-color: #ff947f;
-    color: white;
-}
-#emailDiv input{
-    background-color: #ff947f;
-    color: white;
-}
-#nameDiv{
-    background-color: #ff947f;
-    color: white;
-}
-#nameDiv input{
-    background-color: #ff947f;
-    color: white;
-}
+
 #optionHolder{
     font-size: 1vw;
     display: flex;
@@ -76,10 +43,6 @@ form{
 #checkboxes{
     display: flex;
 
-}
-#checkboxDiv{
-    background-color: #ff947f;
-    color: white;
 }
 .entry{
     font-size: 2vw;
@@ -103,11 +66,8 @@ form{
     width: 100%;
     font-size: 1vw;
 }
-#textHolder{
-    background-color: #ff947f;
-    color: white;
-}
 #submit{
-    background-color: black;
-    color: white;
+    background-color: #aa7fff;
+    color: #ffd47f;
+    border: 0.1vw solid black;
 }
