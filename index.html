@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="top">
+    <h1 id="title">Survey</h1>
+    <p id="description">Help us improve your experience</p>
+    </div>
+    <div id="formHolder">
+        <form id="survey-form" action="">
+            <div class="entry" id="nameDiv">
+            <label id="name-label" for="name">Your name</label>
+            <input placeholder="John Smith" id="name" type="text" required>
+            </div>
+            <div class="entry" id="emailDiv">
+            <label id="email-label" for="email">Email</label>
+            <input required placeholder="Johnsmith@gmail.com" type="email" name="" id="email">
+            </div>
+            <div class="entry" id="ageDiv">
+            <label id="number-label" for="number">How many years have you been using our service for</label>
+            <input placeholder="2" type="number" name="" id="number" min=1 max=10>
+            </div>
+            <div class="entry" id="dropdownDiv">
+                <label for="dropdown">What part of our platform was most useful for you</label>
+                <select name="improve" id="dropdown" required>
+                    <option value="Career advice">Career advice</option>
+                    <option value="User">User made guides</option>
+                </select>
+            </div>
+            <div class="entry" id="radiohead">
+                <p>What part of our platform would you like to see improved</p>
+                <div id="optionHolder">
+                    <label for="User">User made guides</label>
+                    <input type="checkbox" name="improvement" value="User made guides" id="User">
+                    <label for="Career">Career advice</label>
+                    <input type="checkbox" name="improvement" value="Career advice" id="Career">
+                </div>
+            </div>
+            <div class="entry" id="checkboxDiv">
+                <p>Has our platform helped you in your career</p>
+                <div id="checkboxes">
+                <label for="y">Yes</label>
+                <input type="radio" name="helped" value="y" required id="y">
+                <label for="n">No</label>
+                <input type="radio" name="helped" value="n" required id="n">
+                </div>
+            </div>
+            <div class="entry" id="textHolder">
+                <label for="sugg">Have any suggestions? leave them here</label>
+                <textarea name="suggestions" id="sugg" cols="20" rows="5"></textarea>
+            </div>
+            <div class="entry" id="submitDiv">
+                <input type="submit" value="Submit" id="submit">
+            </div>
+        </form>
+
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

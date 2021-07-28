@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #092327;
+}
+#top{
+    color: #F2C14E;
+    text-align: center;
+}
+p{
+    text-align: left;
+    font-size: 2vw;
+}
+#title{
+    font-size: 4vw;
+}
+#description{
+    font-size: 2vw;
+    text-align: center;
+}
+#formHolder{
+    background-color: aquamarine;
+    width: 70vw;
+    height: auto;
+    margin: auto;
+}
+#radiohead{
+    background-color: #0000F9;
+    color: white;
+}
+#dropdownDiv{
+    background-color: #008018;
+    color: white;
+}
+#dropdownDiv{
+    background-color: #008018;
+    color: white;
+}
+#ageDiv{
+    background-color: #FFFF41;
+    color: grey;
+}
+#ageDiv input{
+    background-color: #FFFF41;
+    color: grey;
+}
+#emailDiv{
+    background-color: #FFA52C;
+    color: black;
+}
+#emailDiv input{
+    background-color: #FFA52C;
+    color: black;
+}
+#nameDiv{
+    background-color: #FF0018;
+    color: white;
+}
+#nameDiv input{
+    background-color: #FF0018;
+    color: white;
+}
+#optionHolder{
+    font-size: 1vw;
+    display: flex;
+}
+#checkboxes{
+    display: flex;
+
+}
+#checkboxDiv{
+    background-color: #86007D;
+    color: black;
+}
+.entry{
+    font-size: 2vw;
+    width: 50%;
+    min-height: 8vh;
+    position: relative;
+    margin: auto;
+    text-align: left;
+    padding: 0%;
+}
+.entry input{
+    width: 100%;
+    font-size: 1vw;
+}
+.entry select{
+    width: 100%;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+.entry textarea{
+    width: 100%;
+    font-size: 1vw;
+}
+#textHolder{
+    background-color: wheat;
+    color: grey;
+}
+#submit{
+    background-color: tomato;
+}
