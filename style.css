@@ -27,6 +27,7 @@ form{
     width: 50%;
     background-color: #ffd47f;
     color: #aa7fff;
+    border: 0.05vw solid black;
     margin: auto;
 }
 #formHolder{
@@ -42,7 +43,6 @@ form{
 }
 #checkboxes{
     display: flex;
-
 }
 .entry{
     font-size: 2vw;
